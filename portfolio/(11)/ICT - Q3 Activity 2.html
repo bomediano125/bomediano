@@ -1,0 +1,90 @@
+#fixed desc spacing
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CSS Selectors Activity</title>
+
+</head>
+<body>
+<style>
+.heading {
+font-family:Helvetica;
+}
+.desc {
+padding: 15px;
+}
+.responsive:hover {
+border: solid grey 5px;
+padding:1px
+}
+.responsive {
+float:left;
+width:auto;
+padding:5px;
+font-family:Helvetica;
+}
+.gallery::after {
+content:"";
+clear:both;
+display:table;
+...
+}
+</style>
+<center>
+<h1 class="heading">Capture The Moment</h1>
+
+<h4 class="heading">#ItsMoreFunInThePhilippines</h4>
+</center>
+<div class="responsive">
+<div class="gallery">
+<a target="_blank" href="palawan.jpg">
+<img src="palawan.jpg" alt="Cinque Terre" width="300" height="200">
+</a>
+<center>
+<div class="desc">El Nido, Palawan</div>
+</div>
+</center>
+</div>
+
+
+<div class="responsive">
+<div class="gallery">
+<a target="_blank" href="siargao.jpg">
+<img src="siargao.jpg" alt="Forest" width="300" height="200">
+</a>
+<center>
+<div class="desc">Surfing Capital, Siargao</div>
+</div>
+</center>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+<a target="_blank" href="bohol.jpg">
+<img src="bohol.jpg" alt="Northern Lights" width="300" height="200">
+</a>
+<center>
+<div class="desc">Chocolate Hills, Bohol</div>
+</div>
+</center>
+</div>
+
+<div class="responsive">
+<div class="gallery">
+<a target="_blank" href="boracay.jpg">
+<img src="boracay.jpg" alt="Mountains" width="300" height="200">
+</a>
+<center>
+<div class="desc">White Beach, Boracay</div>
+</div>
+</center>
+</div>
+
+<div class="clearfix"></div>
+
+
+
+</body>
+</html>

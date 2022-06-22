@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> DICE ACTIVITY(CSS BOX MODEL)</title>
+  <style>
+    .first {
+      width: 200px;
+      height: 200px;
+      border: solid 10px black;
+      border-radius: 20px;
+      display: inline-block;
+    
+    }
+
+    .dot1 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 50px;
+      margin-left:5
+    }
+
+    .dot2 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 40px;
+      margin-left: 85px;
+    }
+
+    .line1 {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .line2 {
+      margin-top: 20px;
+      margin-left: 10px;
+    }
+
+    .line3 {
+      margin-top: 30px;
+      margin-left: 10px;
+    }
+    .second {
+      width: 200px;
+      height: 200px;
+      border: solid 10px black;
+      border-radius: 20px;
+      display: inline-block;
+      margin-left: 20px;
+      
+    }
+
+    .dot3 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 50px;
+      margin-left:5;
+    }
+
+    .dot4 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 40px;
+      margin-left: 85px;
+    }
+
+    .line4 {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .line5 {
+      margin-top: 20px;
+      margin-left: 75px;
+    }
+
+    .line6 {
+      margin-top: 30px;
+      margin-left: 10px;
+    }
+    .third {
+      width: 200px;
+      height: 200px;
+      border: solid 10px black;
+      border-radius: 20px;
+      display: inline-block;
+      margin-left: 20px;
+      
+    }
+
+    .dot5 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 50px;
+      margin-left:5;
+    }
+
+    .dot6 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50px;
+      margin-left:5;
+    }
+
+    .dot7 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 40px;
+      margin-left: 85px;
+    }
+
+    .line7 {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .line8 {
+      margin-top: 20px;
+      margin-left: 75px;
+    }
+
+    .line9 {
+      margin-top: 30px;
+      margin-left: 10px;
+    }
+    .fourth {
+      width: 200px;
+      height: 200px;
+      border: solid 10px black;
+      border-radius: 20px;
+      display: inline-block;
+      margin-left: 20px;
+      
+    }
+
+    .dot8 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 50px;
+      margin-left:5;
+      
+    }
+
+    .dot9 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50px;
+      margin-left:5;
+      
+    }
+
+    .dot10 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 50px;
+      margin-left:5;
+    }
+
+    .dot11 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 40px;
+      margin-left: 85px;
+      background-color:black  
+    }
+
+    .dot12 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 40px;
+      margin-left: 85px;
+        
+    }
+
+    .line10 {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .line11 {
+      margin-top: 20px;
+      margin-left: 75px;
+    }
+
+    .line12 {
+      margin-top: 30px;
+      margin-left: 10px;
+    }
+    .fifth {
+      width: 200px;
+      height: 200px;
+      border: solid 10px black;
+      border-radius: 20px;
+      display: inline-block;
+      margin-left: 20px;
+    }
+
+    .dot13 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 50px;
+      margin-left:5;
+      
+    }
+
+    .dot14 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50px;
+      margin-left:5;
+      
+    }
+
+    .dot15 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50px;
+      margin-left:5;
+    }
+
+    .dot16 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 40px;
+      margin-left: 85px;
+      background-color:black  
+    }
+
+    .dot17 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 40px;
+      margin-left: 85px;
+        
+    }
+
+    .line13 {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .line14 {
+      margin-top: 20px;
+      margin-left: 75px;
+    }
+
+    .line15 {
+      margin-top: 30px;
+      margin-left: 10px;
+    }
+    .sixth {
+      width: 200px;
+      height: 200px;
+      border: solid 10px black;
+      border-radius: 20px;
+      display: inline-block;
+      margin-left: 20px;
+    }
+
+    .dot18 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50px;
+      margin-left:5;
+      
+    }
+
+    .dot19 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 50px;
+      margin-left:5;
+      
+    }
+
+    .dot20 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: black;
+      border-radius: 50px;
+      margin-left:5;
+    }
+
+    .dot21 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 40px;
+      margin-left: 85px;
+       
+    }
+
+    .dot22 {
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background-color: white;
+      border-radius: 40px;
+      margin-left: 85px;
+        
+    }
+
+    .line16 {
+      margin-top: 10px;
+      margin-left: 10px;
+    }
+
+    .line17 {
+      margin-top: 20px;
+      margin-left: 75px;
+    }
+
+    .line18 {
+      margin-top: 30px;
+      margin-left: 10px;
+    }
+  </style>
+  
+</head>
+<body>
+    <div class="first">
+      <div class="line1">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+      </div>
+      <div class="line2">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+      </div>
+      <div class="line3">
+        <span class="dot1"></span>
+        <span class="dot2"></span>
+      </div>
+    </div>
+    <div class="second">
+      <div class="line4">
+        <span class="dot3"></span>
+        <span class="dot4"></span>
+      </div>
+      <div class="line5">
+        <span class="dot3"></span>
+        
+      </div>
+      <div class="line6">
+        <span class="dot3"></span>
+        <span class="dot4"></span>
+      </div>
+    </div>
+  <div class="third">
+      <div class="line7">
+        <span class="dot5"></span>
+        <span class="dot7"></span>
+      </div>
+      <div class="line8">
+        <span class="dot6"></span>
+        
+      </div>
+      <div class="line9">
+        <span class="dot5"></span>
+        <span class="dot2"></span>
+
+      </div>
+    </div>
+    <div class="fourth">
+        <div class="line10">
+          <span class="dot9"></span>
+          <span class="dot11"></span>
+        </div>
+        <div class="line11">
+          <span class="dot10"></span>
+          
+        </div>
+        <div class="line12">
+          <span class="dot8"></span>
+          <span class="dot12"></span>
+        </div>
+      </div>
+ <div class="fifth">
+      <div class="line13">
+        <span class="dot14"></span>
+        <span class="dot16"></span>
+      </div>
+      <div class="line14">
+        <span class="dot14"></span>
+        
+      </div>
+      <div class="line15">
+        <span class="dot13"></span>
+        <span class="dot17"></span>
+      </div>
+    </div>
+    <div class="sixth">
+        <div class="line16">
+          <span class="dot19"></span>
+          <span class="dot21"></span>
+        </div>
+        <div class="line17">
+          <span class="dot20"></span>
+          
+        </div>
+        <div class="line18">
+          <span class="dot18"></span>
+          <span class="dot22"></span>
+        </div>
+      </div>
+</body>
+</html>
